@@ -26,6 +26,7 @@
 				System.out.println(sessionName);
 				String sessionValue = (String) session.getAttribute(sessionName);//세션 속성들의 값
 				System.out.println(sessionValue);
+				System.out.println("===================");
 			}
 		
 		
@@ -35,5 +36,10 @@
 		}
 	
 	%>
+	<br><br>
+	<a href="logout.jsp">로그 아웃</a><br><br>
+	<a href="sessionTime.jsp">세션의 유효시간 보기</a>
+	
+	
 </body>
 </html>
